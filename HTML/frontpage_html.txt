@@ -1,0 +1,258 @@
+<html>
+	<title>mkpits solutions</title>
+	<body>
+	<table border=0 width=100% >
+	<tr>
+	<th width=5% ></th>
+	<th width=10% >
+	<a href="mkp.html" >
+	<img src="C:\Users\mayur\OneDrive\Desktop\html\mkpits-logo.png" style="width:75px;height:75px;"/>
+	</a>
+	</th>
+	<th width=35% ></th>
+	<th width=10% >
+	<a href="sample1.html" style="text-decoration:none;font-size:20px;font-family:calibri;" >
+         <a href="file:///C:/Users/mayur/OneDrive/Desktop/html/mkp.html">
+        
+	Home
+	</a>
+	</th>
+	<th width=10% >
+	<a href="about.html" style="text-decoration:none;font-size:20px;font-family:calibri;" >
+        <a href="file:///C:/Users/mayur/OneDrive/Desktop/html/About%20us.html">
+	About
+	</a>
+	</th>
+	<th width=10% >
+	<a href="courses.html" style="text-decoration:none;font-size:20px;font-family:calibri;" >
+	Courses
+	</a>
+	</th>
+	<th width=10% >
+	<a href="admission.html" style="text-decoration:none;font-size:20px;font-family:calibri;" >
+	Admission
+	</a>
+	</th>
+        <th width=10% >
+        <a href="placement.html" style="text-decoration:none;font-size:20px;font-family:calibri;" >
+        placement
+        </a>
+        </th>
+	<th width=10% >
+	<a href="contact.html" style="text-decoration:none;font-size:20px;font-family:calibri;" >
+	Contact
+	</a>
+	</th>
+	
+	</tr>
+	</table>
+	
+	<div style="width:100%;height:350px;
+	background-image:url('pexels.png');
+	background-repeat: no-repeat;
+  background-size: cover;" >
+	<p style="color:white;padding-left:80px;padding-top:50px;">
+	<span style="font-size:48px;"><b>Learning Today,<br>
+Leading Tomorrow</span><br>
+<span style="font-size:24px;">
+We are a team of highly experienced people helping freshers to secure job in IT.
+</span>
+
+</p>
+
+<a href="getstarted.html" style="text-decoration:none;
+color:white;margin-left:80px;font-size:24px;border:1px solid;padding:10px;
+border-radius:15px;
+"
+ > 
+Get Started
+</a>
+	</div>
+<table width=100% style="padding:50px background-color:#009DD3;">
+<tr>
+<td>
+<h1>WELCOME TO MKP IT SERVICES</h1>
+<p style="padding:50px;"> 
+<b>MKP IT Services is a leading training</b>, job and staffing services provider in Nagpur. We have over a decade of presence now. Previously we were known as <b>MK Placements and Education Services</b> We also provide services in Pune, Hyderabad, Bangalore, Mumbai, Indore, Bhopal and more cities. Our valuable services are:
+<ul>
+<li><b>Training and Internship:</b> We conduct high end training and provide intership program to freshers to strengthen them with corporate required skills
+ <li><b>Campus Placement Services:</b> We conduct placements services for freshers, skilled and semi-skilled candidates
+<li><b>Lateral Placement Services:</b> Placement services for junior, mid level and senior level recruitment
+Job fairs at College Level:</b> Conduct job fairs for aspiring students at college level
+<li><b>Campus Recruitment Training:</b> We conduct workshops on soft skills, written skills, mock interview preparations and training, personality development training
+<p>
+We provide excellent Placement Consultancy to our clients. Understanding the requirements and skills of our job seekers, we guide them in order to assure their maximum satisfaction. Our Placement Consultancy provides a correct guiding path to the aspirants that will help them grow at the individual as well as professional level.
+</p>
+<p>
+
+We carefully evaluate the skills, talent and interest of our aspirants and accordingly advice them with the best companies and job profiles. Our team is well upgraded with the latest and up to date developments taking place in diverse industries which helps in providing the most effective and productive outcomes.
+</p>
+<p>
+
+We have had a successful track record of meeting the vast manpower requirements of varied industries. In fact, we excel in providing correct direction in case of overseas placement by providing prospective options to the job seekers that facilitate smooth overseas placement of our aspirants. We divert all our efforts in ensuring maximum customer satisfaction.
+</p>
+</ul>
+</td>
+
+<td style="width:50%;">
+	
+	<img src="about.jpg" style="width:100%;margin-left:10px;" />
+	</td>
+	</tr>
+</table>
+	
+	<!-- student placed section -->
+	<table width=100% style="padding:50px;background-color:#D38000; ">
+	<tr>
+	<th style="width:25%;">
+	<h1>10321</h1>
+<h3>Students Placed</h3>
+	</th>
+	<th style="width:25%;">
+        <h1>9 year</h1>
+	<h3>year of service</h3>
+	</th>
+	<th style="width:25%;">
+        <h1>42</h1>
+        <h3>event conducted</h3>
+	</th>
+	<th style="width:25%;">
+        <h1>32</h1>
+        <h3>client tieups</h3>
+	</th>
+	</tr>
+	</table>
+        <table width=100% style="padding:50px;">
+<tr>
+<td style="width=30%;padding:80px;background-color:#DDA658 ;"><h1><b>Why Choose MKP IT Services?</b></h1>
+        <h3>We have a rich experience in training and placement with specialization in IT. We are backed by the industry experienced professional. We provide intership with 100% job guarantee with easy 0% EMI options. We provide lifetime membership where candidates can get free upgrade on the courses for lifetime. We have tie-up with reputed engineering colleges in Maharashtra, Chattisgarh, Madhya Pradesh for placement activities.</h3>
+<a href="black margin-left:60px;font-size:20px;border:1px solid;padding:10px;
+border-radius:25px;">
+</a>
+</td>
+       
+       <th style="width:22%;padding:50px;">
+	<h2>Training and Placement</h2>
+        <h3>IT Intership with 100% job<br> guarantee on easy 100% finance<br> scheme with 0% interest EMI</h3>
+</th>
+        <th style="width:22%;padding:50px;">
+        <h2>Admission Consultancy</h2>
+        <h3>We handle admission for<br> engineering, nursing,medical<br> for colleges all <br>over India and abroad</h3>
+</th>
+        <th style="width=22%"padding:50px;">
+        <h2>Software Development</h2>
+        <h3>We are a product based IT<br> company<br>where we have<br> developed our in-house software</br></h3>
+</th>
+</table>
+<br>
+<p>
+<h3 style="text-align:left;padding-left:80px;">PLACEMENT</h3>
+<h1 style="text-align:left;padding-left:80px;">OUR STUDENTS WORK FOR</h1><hr style="color:red;">
+</p>
+<table border="0" width="100%"style="padding:50px;">
+<th style="width:11.5%;">
+<img src="C:\Users\mayur\OneDrive\Desktop\html\dif.png" style="width:80px;height:60px;"/>
+</th>
+<th style="width:11.5%;">
+<img src="C:\Users\mayur\OneDrive\Desktop\html\ex.png" style="width:80px;height:60px;"/>
+</th>
+<th style="width:11.5%;">
+<img src="C:\Users\mayur\OneDrive\Desktop\html\hcl.png" style="width:80px;height:60px;"/>
+</th>
+<th>
+<th style="width:11.5%;">
+<img src="C:\Users\mayur\OneDrive\Desktop\html\ibm.png" style="width:80px;height:60px;"/>
+</th>
+<th>
+<th style="width:11.5%;">
+<img src="C:\Users\mayur\OneDrive\Desktop\html\innoeye.png" style="width:80px;height:60px;"/>
+</th>
+<th>
+<th style="width:11.5%;">
+<img src="C:\Users\mayur\OneDrive\Desktop\html\fendhal.png" style="width:80px;height:60px;"/>
+</th>
+<th>
+<th style="width:11.5%;">
+<img src="C:\Users\mayur\OneDrive\Desktop\html\mahindra.png" style="width:80px;height:60px;"/>
+</th>
+<th>
+<th style="width:11.5%;">
+<img src=
+"C:\Users\mayur\OneDrive\Desktop\html\chitkara.png" style="width:80px;height:60px;"/>
+</th>
+</table>
+<hr>
+<br>
+<p>
+<h3 style="text-align:left;padding-left:80px;">COURSES</h3>
+<h1 style="text-align:left;padding-left:80px;">POPULAR COURSES</h1>
+<table border="0" width:100%;style="padding:75px;">
+<tr>
+<th style="width:30%;">
+<img src="C:\Users\mayur\OneDrive\Desktop\html\java.jpg" style="width:250px;height:200px;"/>
+	<h2>FULLSTACK JAVA DEVELOPER</h2>
+        <h3>Fullstack Java developer will learn end to end<br>implementation of the java project which includes<br> git, UML, CI/CD pipeline, requirement gathering <br>and deployment of java capstone project on<br> cloud</h3>
+</th>
+<th style="width:30%;">
+<img src="C:\Users\mayur\OneDrive\Desktop\html\python1.jpg" style="width:250px;height:200px;"/>
+        <h2><b>FULLSTACK PYTHON DEVELOPER</h2></b>
+        <h3>Fullstack Python with Django and Flask developer will<br> learn end to end implementation of the python <br>project which includes git, UML, CI/CD pipeline, <br>requirement gathering and deployment <br>of python capstone project on cloud</h3>
+</th>
+<th style="width:30%;">
+<img src="C:\Users\mayur\OneDrive\Desktop\html\dotnet.jpg" style="width:250px;height:200px;"/>
+         <h2>FULLSTACK DOTNET DEVELOPER</h2>
+         <h3>Fullstack Dotnet developer will learn end to end implementation <br>of the .NET project which includes git, UML, CI/CD pipeline,<br> requirement gathering and deployment of<br>NET capstone project on cloud</h3>
+</th>
+</table>
+<table border="1" "width:100%;padding-left:100px;padding-right:100px;">
+<td width:30%; style="padding-left:50px;">
+<h2>Address</h2>
+<h4>2nd Floor, Fortune Mall, Munje Square,<br> Sitabuldi, Nagpur, MH - 440013</h4>
+<h4>Phone: +91-78880-66630</h4><br>
+<h4>Email: support@mkpits.in, jobs@mkpits.in</h4>
+</td>
+<td "width:30%;">
+<h3>Useful Links</h3>
+<ul>
+<a href="mkp.html">
+<li>Home
+<a href="file:///C:/Users/mayur/OneDrive/Desktop/html/About%20us.html">
+<li>About 
+<li>Disclaimer
+<li>Terms and Conditions
+<li>Privacy Policy
+</ul>
+</td>
+<td width:"30%;">
+<h3>Our Services</h3>
+<ul>
+<a href="mkp.html">
+<li>IT Internship
+<li>Skills Training
+<li>Freshers and Laterals Placement
+<li>Admissions
+<li>Software Development
+</ul>
+</td>
+</table>
+<br>
+<p>
+<th style "width=30%";>
+<h4>© Copyright MKP IT Services. <br>All Rights Reserved
+Designed and Maintained by MKP IT Services Pvt. Ltd.</h4>
+
+
+
+
+
+
+
+
+
+        
+	
+	
+	</body>
+
+
+</html>
