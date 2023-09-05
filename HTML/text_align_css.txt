@@ -1,0 +1,22 @@
+<html
+<style>
+h1{text-decoration:line-through;}
+.lt{text-decoration:underline;}
+</style>
+<body>
+<h1 style=color:red;this is paragraph</h1>
+<span welcome to class="lt">mkpits</span> solution nagpur
+
+
+<div style="border=1px solid grey;width=50%;text-align:justify;padding-left:50px;">
+WELCOME TO MKP IT SERVICES
+MKP IT Services is a leading training, job and staffing services provider in Nagpur. We have over a decade of presence now. Previously we were known as MK Placements and Education Services We also provide services in Pune, Hyderabad, Bangalore, Mumbai, Indore, Bhopal and more cities. Our valuable services are:
+</div>
+
+
+
+</body>
+
+
+</html>
+
