@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int count;
+	
+	for(count=1;count<=10;count++)
+    {
+	   printf("num=%d",count);
+    
+    	if(count%2==0)
+    	{
+    		break;
+		}
+	
+	}
+	
+	    printf("\n bye");
+}      
