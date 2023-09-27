@@ -1,0 +1,20 @@
+<html>
+<script language="javascript">
+    function calculateArea() {
+
+        var length = parseFloat(document.getElementById("n1").value);
+        var breadth = parseFloat(document.getElementById("n2").value);
+
+        var area = length * breadth;
+        document.getElementById("res").innerText = "Result: Area = " + area;
+    }
+</script>
+
+<body>
+    Enter length: <input type=text id="n1" /> <br><br>
+    Enter breadth: <input type=text id="n2" /> <br><br>
+    <input type=button value="ok" onclick="calculateArea();" />
+
+    <span id="res">Result :</span>
+</body>
+</html>

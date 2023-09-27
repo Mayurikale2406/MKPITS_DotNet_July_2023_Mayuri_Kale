@@ -1,0 +1,20 @@
+<html>
+<script language="javascript">
+    function calculatearea() {
+
+        var radius = parseFloat(document.getElementById("n1").value);
+        var area = 3.14*radius*radius;
+        var circumference=2*3.14*radius;
+        document.getElementById("areaResult").innerText = "Result: area = " + area;
+        document.getElementById("circResult").innerText= "Result: circumference"+circumference;
+    }
+</script>
+
+<body>
+    Enter radius: <input type=text id="n1" /> <br><br>
+    <input type=button value="ok" onclick="calculatearea();" />
+
+    <span id="areaResult">area :</span><br>
+    <span id="circResult">circumference:</span>
+</body>
+</html>
