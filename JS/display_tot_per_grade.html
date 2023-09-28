@@ -1,0 +1,44 @@
+
+<html>
+    <body>
+
+<form name="f1">
+    Subject 1: <input type="number" id="s1" required> <br><br>
+    Subject 2: <input type="number" id="s2" required> <br><br>
+    Subject 3: <input type="number" id="s3" required> <br><br>
+
+    <input type="button" value="Calculate" onclick="calculateGrade();">
+
+    <span id="red"></span>
+</form>
+<script>
+function calculateGrade() 
+{
+    var sub1 = parseFloat(document.getElementById("s1").value);
+    var sub2 = parseFloat(document.getElementById("s2").value);
+    var sub3 = parseFloat(document.getElementById("s3").value);
+
+
+    var total = sub1 + sub2 + sub3;
+    var per = (total / 300) * 100;
+    var grade;
+
+    if (percentage >= 90) {
+        grade = 'A+';
+    } else if (percentage >= 80) {
+        grade = 'A';
+    } else if (percentage >= 70) {
+        grade = 'B';
+    } else if (percentage >= 60) {
+        grade = 'C';
+    } else {
+        grade = 'D';
+    }
+
+    document.getElementById("total").innerHTML="total"+total;
+    document.getElementById("percentage").innerHTML="percentage"+per;
+    }
+</script>
+
+</body>
+</html>
