@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <title>calculations</title>
+</head>
+<script>
+    function calculate() 
+    {
+        var num1 = parseFloat(document.getElementById("num1").value);
+        var num2 = parseFloat(document.getElementById("num2").value);
+
+        var add = num1 + num2;
+        var sub = num1 - num2;
+        var mul = num1 * num2;
+        var div = num1 / num2;
+
+
+        document.getElementById("addition").innerHTML= +add;
+        document.getElementById("subtraction").innerHTML= +sub;
+        document.getElementById("multiplication").innerHTML= +mul;
+        document.getElementById("divison").innerHTML= +div;
+    }
+</script>
+
+<body>
+<label class="num1 ">Enter first number:</label>
+<input type="number" id="num1">
+<br>
+<label class="num2 ">Enter second number:</label>
+<input type="number" id="num2">
+<br>
+<button onclick="calculate()">Ok</button>
+
+<p>Addition: <span id="addition"></span></p>
+<p>Subtraction: <span id="subtraction"></span></p>
+<p>Multiplication: <span id="multiplication"></span></p>
+<p>Division      : <span id="Division"></span></p>
+
+</body>
+</html>
