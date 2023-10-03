@@ -18,21 +18,65 @@
         <input type="number" id="amount" >
         <div class="list-group">
             
-            <lable class="list-group-item  mt-3">
-                <input type="radio" class="form-check-input " name="amount" value="Deposite"onclick="Deposite();"/>Deposite
-            </lable>
+            <div class="form-check">
+				<div class="row">
+					<div class="col">
+						<input type="radio" class="form-check-label" value="deposit" id="d1" name="d1"  />
+						<label for="d1">Deposit</label>
+					</div>
+					<div class="col">
+						<input type="radio" class="form-check-label" id="d2" name="d1" value="withdrawl"  />
+						<label for="w1">Withdrawl</label>
+					</div>
+				</div>
+
+			</div>
+            <div class="form-group ml-5">
+				<button class="btn btn-primary" type=button onclick="display();"> submit </button>
+			</div>
+			<div class="container">
+				<div class="row mt-5">
+					<span id="result">Answer</span>
+				</div>
+			</div>
+		</form>
+
+	</div>
+
+    <script language="javascript">
+        var amt;
+        var bal = 1000;
+        var result;
+        var ans;
+        function display() 
+        {
+        amt=parseInt(document.getElementById("amount").value);
+        var r=document.getElementsByName("d1");
+        for(i=0;i<r.length;i++)
+        {
+            if(r[i].checked)
+            {
+                ans=r[i].value;
+                //alert(ans);
+            }
         
-        </div>
-        <div class="list-group">
-            <lable class="list-group-item mt-3">
-                <input type="radio" class="form-check-input " name="amount" value="Withdrow"onclick="Withdrow();"/>Withdrow
-            </lable>
-        </div>
-        <div class="mt-3 ml-4">
-        <input type= button value="ok "onclick= "amount;"/>
-        </div>
-        <span id="amount"> result :   </span>
-    </body>
-
-</html>
-
+        }
+               //alert(ans);
+        if(ans=="deposit")
+        {
+            bal=bal + amt;
+        }
+        else if(ans == "withdrawl")
+        {
+            bal =bal -amt;
+        }
+    
+        document.getElementById("result").innerHTML="balance : " + bal;
+        }
+        
+    
+    
+    </script>
+    
+    </html>
+    
