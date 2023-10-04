@@ -1,0 +1,32 @@
+wap to accept productname , productrate , quantity then calculate totalamount
+<html>
+<head>
+    <title>Product Total Amount Calculator</title>
+</head>
+<body>
+
+<form>
+    Enter product name: <input type="text" id="t1"/><br><br>
+    Enter product rate: <input type="text" id="t2"/><br><br>
+    Enter quantity:     <input type="text" id="t3"/><br><br>
+    <button type="button" onclick="calculatetotal()">Calculate Total</button>
+    <br><br>
+    Product Name: <span id="name"></span><br>
+    Total Amount: <span id="result"></span>
+</form>
+
+<script>
+    function calculatetotal() {
+        var productname = document.getElementById("t1").value;
+        var productrate = parseFloat(document.getElementById("t2").value);
+        var quantity = parseFloat(document.getElementById("t3").value);
+
+        var total = productrate * quantity;
+
+        document.getElementById("name").innerText = productname;
+        document.getElementById("result").innerText = total;
+    }
+</script>
+
+</body>
+</html>

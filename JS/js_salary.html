@@ -1,0 +1,51 @@
+wap to accept employee name and basic salary and designation then calculate bonus =5000 for manager , 2000 for clerk and 1000 for peon and then display empname , totalsal(basic + bonus ) and bonus
+enter emp name - amit 
+enter basic salary - 10000
+entbrer designation - manager
+bonus=0 
+if(disignation == "manager")
+bonus=5000
+...
+.....
+
+totalsalary=basicsalary+bonus
+<html>
+    <form>
+        enter emp name:<input type=text id="t1"/><br><br>
+        enter basic salary:<input type=text id="t2"/><br><br>
+        enter designation:<input type=text id="t3"/><br><br>
+        <button type=button onclick="display();">ok</button>
+    </form>
+    <script>
+        function display()
+        {
+            var e1=document.getElementById("t1").value;
+            var b1=document.getElementById("t2").value;
+            var d1=document.getElementById("t3").value;
+        }
+</html>
+<script>
+        function calculateBonus() 
+        {
+        var empName = document.getElementById("empName").value;
+        var basicSalary = parseFloat(document.getElementById("basicSalary").value);
+        var designation = document.getElementById("designation").value;
+        
+        var bonus = 0;
+        if (designation == "manager") {
+            bonus = 5000;
+        } else if (designation == "clerk") {
+            bonus = 2000;
+        } else if (designation == "peon") {
+            bonus = 1000;
+        }
+        
+        var totalSalary = basicSalary + bonus;
+
+        document.getElementById("resultName").innerText = empName;
+        document.getElementById("resultBonus").innerText = bonus;
+        document.getElementById("resultTotalSalary").innerText = totalSalary;
+    }
+</script>
+
+</html>
