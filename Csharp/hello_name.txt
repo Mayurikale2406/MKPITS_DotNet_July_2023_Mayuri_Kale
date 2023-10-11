@@ -1,0 +1,16 @@
+using System;
+namespace radiusprogram
+{
+    class Program
+    {
+        public static void Main()
+        {
+            string name;
+
+            Console.WriteLine("hello :mayuri");
+
+
+            Console.ReadKey();
+        }
+    }
+}
