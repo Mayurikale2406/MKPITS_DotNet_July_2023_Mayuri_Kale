@@ -1,0 +1,12 @@
+ create table customer (custid int primary key,custname varchar(20),custaddress varchar(100))
+ insert into customer values (12 ,'yamini','Nagpur')
+  insert into customer values (13 ,'mayuri','Nagpur')
+   insert into customer values (14 ,'vrushali','Arvi')
+    insert into customer values (15 ,'priya','Akola')
+	 insert into customer values (16 ,'manish','Akola')
+	  insert into customer values (17 ,'pranay','Nagpur')
+	   insert into customer values (18 ,'sahil','Nagpur')
+	    insert into customer values (19 ,'kunal','Nagpur')
+		 insert into customer values (10 ,'onkar','Pune')
+		  insert into customer values (11 ,'ishan','Pune')
+		  select * from customer
