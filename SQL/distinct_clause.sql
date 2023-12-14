@@ -1,0 +1,1 @@
+create table customer1 (custname varchar(20),sername varchar(20),custid int )
