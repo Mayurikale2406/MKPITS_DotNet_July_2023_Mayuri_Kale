@@ -17,14 +17,18 @@ insert into employe values('jolly evans','HR','2020-10-04',11,30000,'pune')
 
 select * from employe
 
-create function info1(@emp_name varchar(20),
-                      @emp_occupation varchar(20),
-					  @emp_city varchar(20))
-return varchar(20)
-as
-begin returns (select @emp_name + '' + @emp_occupation + '' + @emp_city)
-end
+create function emp2
+    (  
+       @emp_name varchar(50),  
+       @emp_occupation varchar(50),  
+       @emp_City varchar(50)  
+    )  
+    returns varchar(150)  
+    as  
+    begin return(select @emp_name+ ' ' +@emp_occupation + ' ' + @emp_City)  
+    end  
 
+select dbo.emp2(emp_name,emp_occupation,emp_city) as 'detail' from employe
 
 
 drop table employe
