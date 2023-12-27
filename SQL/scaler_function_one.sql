@@ -1,14 +1,14 @@
-create table incometax(m1 int,m2 int,m3 int)
-insert into incometax values(3,4,5)
-insert into incometax values(5,7,8)
-insert into incometax values(3,2,1)
+create table incometax(income decimal ,taxrate decimal)
+insert into incometax values(3,4)
+insert into incometax values(5,7)
+insert into incometax values(3,2)
 select * from incometax
-create function calculate_tax1(@m1 int ,@m2 int ,@m3 int)
-returns int
+create function calculate_tax2(@income decimal ,@taxrate decimal )
+returns decimal
 as
 begin
-return(select @m1+@m2+@m3)
+return(select @income*@taxrate)
 end;
-select dbo.calculate_tax1 (m1,m2,m3) as 'total incometax'from incometax
+select dbo.calculate_tax2 (income,taxrate) as 'total incometax'from incometax
 
 drop table incometax

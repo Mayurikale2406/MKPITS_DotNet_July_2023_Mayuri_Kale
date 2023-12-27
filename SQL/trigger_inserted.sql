@@ -8,14 +8,16 @@ create table emplog(log_id int identity,
 
 --------------------------insert data-----------------------------------
 
-create trigger tr1
+create trigger tr4
 on employee
 for insert 
 as
 insert into emplog(emp_id,operation,updatedate)
 select emp_id,'insert',GETDATE()from inserted
 
+
 insert into employee values(1,'mayuri','nagpur')
+insert into employee values(2,'vrushali','pune')
 select * from employee
 select * from emplog
 
