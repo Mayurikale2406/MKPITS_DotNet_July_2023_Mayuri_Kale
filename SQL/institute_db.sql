@@ -70,6 +70,7 @@ create table TableRegAddress(RegAddressID int primary key,
 							 foreign key(CityID)references
 							 TableCity1(CityID));
 
+
 insert into TableRegAddress values(55,99,15,111,123)
 insert into TableRegAddress values(66,88,12,222,234)
 insert into TableRegAddress values(77,77,13,333,456)
